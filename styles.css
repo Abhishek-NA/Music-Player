@@ -1,0 +1,232 @@
+/* Header */
+.d-flex {
+  position: relative;
+  margin-right: 30px;
+}
+
+.d-flex .fa-search {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  color: #9ca3af;
+}
+
+header .d-flex span {
+  position: absolute;
+  right: 17px;
+  top: 13px;
+  padding: 2px;
+  border-left: 1px solid #050538;
+}
+.left-pan {
+  padding-left: 7px;
+}
+
+.left-pan i {
+  padding-left: 10px;
+}
+
+.form-input {
+  height: 55px;
+  text-indent: 33px;
+  /* border-radius: 10px; */
+  background-color: #050538;
+}
+
+.form-control {
+  border: none;
+}
+
+.form-input:focus {
+  box-shadow: none;
+  border: none;
+}
+
+.fa-bell {
+  margin-right: 30px;
+}
+
+span {
+  color: white;
+}
+
+/* Body */
+
+body {
+  background-color: #05051c;
+}
+/* Index */
+/* Main */
+/* Carousel */
+.zoom {
+  transition: transform 0.2s;
+
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5);
+}
+/* Latest Release */
+.Lrelease {
+  height: 70px;
+  background-color: #141429;
+  cursor: pointer;
+  margin-right: 0px;
+}
+/* Popular Artist */
+.box1 div {
+  width: 100px;
+  display: inline-block;
+  margin-right: 30px;
+  text-align: center;
+}
+/* Latest English */
+
+.box div {
+  width: 100px;
+  display: inline-block;
+  margin-right: 10px;
+  text-align: start;
+}
+
+/* Single playlist */
+/* Main */
+
+.card {
+  background-color: #050538;
+}
+.card-text {
+  color: slategray;
+}
+
+.break-words {
+  overflow-wrap: break-word;
+}
+.font-semibold {
+  font-weight: 600;
+}
+#textarea {
+  display: none;
+}
+
+#textarea:target {
+  display: inline;
+}
+
+.controls {
+  display: inline;
+}
+
+#textarea + ul.controls {
+  list-style-type: none;
+}
+
+#textarea + ul.controls .hide,
+#textarea:target + ul.controls .show {
+  display: none;
+}
+
+#textarea:target + ul.controls .hide,
+#textarea + ul.controls .show {
+  display: inline-block;
+}
+
+.play-btn {
+  /* border: none; */
+  border-color: #050538;
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+  width: 150px;
+  margin-right: 30px;
+  background: linear-gradient(to right, #050538, purple);
+}
+
+.follow-btn {
+  background-color: #050538;
+  font-size: 20px;
+  color: #9ca3af;
+  text-decoration: none;
+  border: 2px solid #050538;
+  width: 150px;
+  /* transition-duration: 0.4s; */
+}
+.follow-btn:hover {
+  color: #b977e2;
+}
+
+/* Song List */
+
+.song-list {
+  height: 70px;
+  /* width: 700px; */
+  background-color: #141429;
+  cursor: pointer;
+  margin-right: 0px;
+}
+
+.song-names {
+  margin-top: 5px;
+  color: white;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+}
+
+i {
+  color: #6c757d;
+}
+
+/* Play icon on hover */
+.play a {
+  visibility: hidden;
+}
+.play i {
+  position: absolute;
+  margin-left: 20px;
+  margin-top: 20px;
+  color: #1b1f57;
+}
+.play:hover a {
+  visibility: visible;
+}
+
+.play1 a {
+  visibility: hidden;
+}
+.play1 i {
+  position: absolute;
+  margin-left: 10px;
+  margin-top: 10px;
+  color: #1b1f57;
+}
+.play1:hover a {
+  visibility: visible;
+}
+
+/* Footer music player */
+#player {
+  display: flex;
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+
+#player audio {
+  width: 60%;
+}
+
+#btnControl {
+  display: none;
+}
